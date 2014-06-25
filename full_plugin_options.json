@@ -16,7 +16,7 @@
 		}
 	],
 	"exclude": ["full_plugin_options.json"], // Files to exlude when publishing
-	"include": ["file_to_include.php"], // Files that are ONLY included when publishing
+	"include": ["file_to_include.php"], // Files that are ONLY included when publishing (ignores exclude)
 	"exec": ".newplugin", // This will inject itself to the sky command
 	"localInstall": ["install"], // Directory(ies) that will be used to install plugin locally on app
 	"getID": "NewPlugin", // Usage: Plugin::get('NewPlugin') to get an instance of "file"
