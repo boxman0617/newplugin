@@ -1,5 +1,5 @@
 {
-	"name": "NewPlugin",
+	"name": "new-plugin",
 	"description": "This is a test plugin of our plugin system",
 	"version": "0.0.1",
 	"keywords": ["new", "test"],
